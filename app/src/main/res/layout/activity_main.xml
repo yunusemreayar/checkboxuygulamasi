@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sipariş Fişi"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çay   - 5 TL"
+        android:id="@+id/CayChb"
+        android:layout_marginTop="10dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kahve   - 10 TL"
+        android:id="@+id/KahveChb"
+        android:layout_marginTop="10dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Tost  - 15 TL"
+        android:id="@+id/TostChb"
+        android:layout_marginTop="10dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gözleme   - 20 TL"
+        android:id="@+id/GozlemeChb"
+        android:layout_marginTop="10dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çay   - 4 TL"
+        android:id="@+id/AyranChb"
+        android:layout_marginTop="10dp"></CheckBox>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Toplam Tutar"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txtTutar"></EditText>
+
+</LinearLayout>
